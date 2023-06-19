@@ -1,6 +1,7 @@
+
 function Navbar({currentPage, handlePageChange}) {
     return (
-      <div className="navbar" style={{background:'url("../creative-geometric-design-space_53876-89787.webp")'}}>
+      <div className="navbar" style={{backgroundImage:'url("../../background-design-poly-vektor-abstraktsiia-oka-project-golub.jpg")'}}>
        <ul className="nav nav-bar">
       <li className="nav-item">
         <a
