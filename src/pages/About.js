@@ -1,3 +1,4 @@
+import '../../src/style.css'
 function About (){
     return (
         <section style={{ backgroundColor: 'lightblue' }}>

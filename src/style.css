@@ -1,0 +1,11 @@
+@font-face {
+    font-family: "mainFont";
+    src: url(Lobster-Regular.ttf);
+  }
+  
+  h3{
+    font-family: "mainFont";
+  }
+  h1{
+    font-family: "mainFont";
+  }

@@ -1,6 +1,8 @@
 import Home from '../../pages/Home';
 import About from '../../pages/About';
 import Contact from '../../pages/Contact';
+import '../../style.css'
+import Portfolio from '../../pages/Portfolio';
 
 export default function Main({currentPage}) {
 
@@ -12,7 +14,10 @@ export default function Main({currentPage}) {
     if (currentPage === 'About') {
       return <About />;
     }
+    if (currentPage === 'Contact')
     return <Contact />;
+    if (currentPage === 'Portfolio')
+    return <Portfolio />
   };
 
   // const handlePageChange = (page) => setCurrentPage(page);

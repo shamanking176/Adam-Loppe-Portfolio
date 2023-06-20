@@ -1,6 +1,7 @@
+import '../../src/style.css'
 function Home (){
     return (
-        <section>
+        <section style={{ backgroundColor: 'lightblue' }}>
             <h3>
                 Home
             </h3>

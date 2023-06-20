@@ -1,7 +1,8 @@
-
+import background from '../../background-design-poly-vektor-abstraktsiia-oka-project-golub.jpg'
+import '../../style.css'
 function Navbar({currentPage, handlePageChange}) {
     return (
-      <div className="navbar" style={{backgroundImage:'url("../../background-design-poly-vektor-abstraktsiia-oka-project-golub.jpg")'}}>
+      <div className="navbar" style={{backgroundImage:`url(${background})`}}>
        <ul className="nav nav-bar">
       <li className="nav-item">
         <a
@@ -26,12 +27,12 @@ function Navbar({currentPage, handlePageChange}) {
       </li>
       <li className="nav-item">
         <a
-          href="#blog"
-          onClick={() => handlePageChange('Blog')}
+          href="#portfolio"
+          onClick={() => handlePageChange('Portfolio')}
           // Check to see if the currentPage is `Blog`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
-          className={currentPage === 'Blog' ? 'nav-link active' : 'nav-link'}
+          className={currentPage === 'Portfolio' ? 'nav-link active' : 'nav-link'}
         >
-          Blog
+          Portfolio
         </a>
       </li>
       <li className="nav-item">

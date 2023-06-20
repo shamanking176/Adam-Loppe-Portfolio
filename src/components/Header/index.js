@@ -1,4 +1,5 @@
 import Navbar from "../Navbar";
+import '../../style.css'
 function Header({currentPage, handlePageChange}) {
     
     return (
