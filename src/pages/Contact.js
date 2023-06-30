@@ -24,6 +24,7 @@ function Contact() {
             value={name}
             onChange={(e) => setName(e.target.value)}
             required
+            
           />
         </div>
         <div className='mt-3'>

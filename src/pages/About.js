@@ -1,7 +1,7 @@
 import '../../src/style.css'
 function About (){
     return (
-        <section style={{ backgroundColor: 'lightblue' }}>
+        <section style={{ backgroundColor: 'lightblue' }} >
             <h3>
                About Me
             </h3>

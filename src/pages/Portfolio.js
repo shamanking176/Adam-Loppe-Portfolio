@@ -10,6 +10,9 @@ function Portfolio (){
             <h3>
                 Portfolio
             </h3>
+            <div class="container">
+            <div class="row">
+              <div class="col">
             <a href="https://github.com/thossain30/Project-Pet-Shelter">
       <img src={petShelter} alt="Pet Shelter"  width="250px" height="250px"/>
     </a>
@@ -19,6 +22,8 @@ function Portfolio (){
     <a href="https://github.com/shamanking176/Tech-Blog">
       <img src={weather} alt="Weather"  width="250px" height="250px"/>
     </a>
+    </div>
+    <div class="col">
     <a href="https://github.com/shamanking176/Tech-Blog">
       <img src={movie} alt="Movie"  width="250px" height="250px"/>
     </a>
@@ -28,6 +33,9 @@ function Portfolio (){
     <a href="https://github.com/shamanking176/Tech-Blog">
       <img src={weather} alt="Tech Blog"  width="250px" height="250px"/>
     </a>
+    </div>
+    </div>
+    </div>
         </section>
     )
 }
