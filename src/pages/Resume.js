@@ -10,9 +10,24 @@ function Resume (){
             </a>
             <p>
                 Skills:
+               
+            </p>
+            <p>
+               
                 HTML
+               
+            </p>
+            <p>
+                
                 CSS
+                
+            </p>
+            <p>
+               
                 Javascript
+                
+            </p>
+            <p>
                 React
             </p>
         </section>
