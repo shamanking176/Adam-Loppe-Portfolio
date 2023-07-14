@@ -9,7 +9,7 @@ function Resume (){
                 Download Resume
             </a>
             <p>
-                Skills:
+            Proficiencies:
                
             </p>
             <p>
@@ -21,6 +21,12 @@ function Resume (){
                 
                 CSS
                 
+            </p>
+            <p>
+                SQL
+            </p>
+            <p>
+                API's
             </p>
             <p>
                
